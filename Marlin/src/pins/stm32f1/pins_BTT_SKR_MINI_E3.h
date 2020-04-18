@@ -47,12 +47,12 @@
 //
 #define X_STOP_PIN                          PC0
 #define Y_STOP_PIN                          PC1
-#define Z_STOP_PIN                          PC2
+#define Z_STOP_PIN                          PC14 // using probe instead of PC2
 
 //
 // Z Probe must be this pins
 //
-#define Z_MIN_PROBE_PIN                     PC14
+//#define Z_MIN_PROBE_PIN                     PC14
 
 //
 // Filament Runout Sensor
